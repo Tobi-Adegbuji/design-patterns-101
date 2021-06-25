@@ -9,9 +9,10 @@ public class CurrentConditionsDisplay implements  DisplayElement, Observer{
     //Needed if we want to un-register ourselves from the observable_pattern.Subject.
     private final Subject weatherData;
 
+
+    /** @param weatherData is used to subscribe observer to the Subject*/
     public CurrentConditionsDisplay(Subject weatherData) {
         this.weatherData = weatherData;
-        /** @registerObserver() is how this observer subscribes to the Subject*/
         weatherData.registerObserver(this);
     }
 
