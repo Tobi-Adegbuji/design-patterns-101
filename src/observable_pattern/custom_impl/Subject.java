@@ -1,4 +1,4 @@
-package observable_pattern;
+package observable_pattern.custom_impl;
 
 public interface Subject {
 

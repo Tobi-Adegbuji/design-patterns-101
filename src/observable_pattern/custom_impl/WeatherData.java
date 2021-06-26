@@ -1,4 +1,4 @@
-package observable_pattern;
+package observable_pattern.custom_impl;
 
 import java.util.ArrayList;
 

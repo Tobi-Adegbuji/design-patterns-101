@@ -1,4 +1,4 @@
-package observable_pattern;
+package observable_pattern.custom_impl;
 
 public class CurrentConditionsDisplay implements  DisplayElement, Observer{
 
@@ -6,7 +6,7 @@ public class CurrentConditionsDisplay implements  DisplayElement, Observer{
 
     private float humidity;
 
-    //Needed if we want to un-register ourselves from the observable_pattern.Subject.
+    //Needed if we want to un-register ourselves from the observable_pattern.custom_impl.Subject.
     private final Subject weatherData;
 
 
